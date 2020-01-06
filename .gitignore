@@ -1,0 +1,16 @@
+# Ignore a blackhole and the folder for development
+node_modules/
+.vs/
+
+# Ignore bwd folders
+dist/
+bwd/
+
+# ignorar el archivo de configuracion
+config.ts
+
+*.heapsnapshot
+*.log
+
+# ignorar el archivo package locks
+package-lock.json

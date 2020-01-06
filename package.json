@@ -1,0 +1,31 @@
+{
+  "name": "bionic",
+  "version": "1.0.0",
+  "description": "un pequeño bot para mi servidor",
+  "main": "dist/src/index.js",
+  "repository": "",
+  "author": "David Gustavo Herrera De La Cruz <phamzito@hotmail.com>",
+  "license": "UNLICENSE",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext ts src --fix",
+    "test:lint": "eslint --ext ts src",
+    "build": "tsc -p .",
+    "watch": "tsc -p . -w",
+    "start": "node dist/src/index.js"
+  },
+  "dependencies": {
+    "discord.js": "discordjs/discord.js",
+    "klasa": "dirigeants/klasa",
+    "rethinkdb-ts": "^2.4.0"
+  },
+  "devDependencies": {
+    "@types/node": "^12.12.22",
+    "@typescript-eslint/eslint-plugin": "^1.13.0",
+    "@typescript-eslint/parser": "^1.13.0",
+    "dotenv": "^8.2.0",
+    "eslint": "^5.16.0",
+    "eslint-config-klasa": "github:dirigeants/klasa-lint",
+    "typescript": "^3.7.4"
+  }
+}
