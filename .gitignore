@@ -11,6 +11,7 @@ config.ts
 
 *.heapsnapshot
 *.log
+*.env
 
 # ignorar el archivo package locks
 package-lock.json
