@@ -1,5 +1,5 @@
 {
-  "name": "bionic",
+  "name": "nearby",
   "version": "1.0.0",
   "description": "un pequeño bot para mi servidor",
   "main": "dist/src/index.js",
